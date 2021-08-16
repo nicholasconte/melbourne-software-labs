@@ -91,14 +91,26 @@ nav .menu li a {
     border-right: 0.1rem white solid;
 }
 
-/*.intro .intro-text {
-    font-size: 1.4em;
-    font-weight: 200;
-    padding: 0 0 1em 0;
-}
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .intro {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 0 auto;
+    }
 
-.intro .heading {
-    font-size: 2.2em;
-    font-weight: 700;
-    padding: 5em 0 2em 0;
-}*/
+    .intro .intro-text {
+        font-size: 1rem;
+        padding: 1rem 0 0 0;
+        border-left: 0;
+        border-top: 0.1rem white solid;
+    }
+    
+    .intro .heading {
+        font-size: 2rem;
+        text-align: left;
+        padding: 3rem 0 0 0;
+        border-right: 0;
+        border-bottom: 0.1rem white solid;
+    }
+  }
