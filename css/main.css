@@ -27,13 +27,13 @@ nav {
     grid-template-columns: 1fr 1fr;
     background-color: #ffffff;
     align-items: center;
-    padding: 0 .5em;
-    height: 3em;
+    padding: 0 .5rem;
+    height: 3rem;
 }
 
 .title {
     display: inline-block;
-    height: 2.8em;
+    height: 2.8rem;
 }
 
 img {
@@ -54,18 +54,39 @@ nav .menu ul {
 
 nav .menu li {
     display: inline-block;
-    padding: 0 .5em;
+    padding: 0 .5rem;
     font-weight: 700;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 .intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
     color: #ffffff;
-    width: 50%;
-    margin: 0 auto;
+    width: 70%;
+    margin: 10rem auto;
 }
 
 .intro .intro-text {
+    height: 100%;
+    font-size: 1.65rem;
+    font-weight: 200;
+    padding: 0 0 0 2rem;
+    border-left: 0.1rem white solid;
+}
+
+.intro .heading {
+    height: 100%;
+    font-size: 4.2rem;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    text-align: end;
+    padding: 0 2rem 0 0;
+    border-right: 0.1rem white solid;
+}
+
+/*.intro .intro-text {
     font-size: 1.4em;
     font-weight: 200;
     padding: 0 0 1em 0;
@@ -75,4 +96,4 @@ nav .menu li {
     font-size: 2.2em;
     font-weight: 700;
     padding: 5em 0 2em 0;
-}
+}*/
